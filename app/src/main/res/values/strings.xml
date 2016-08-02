@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleCustomFont</string>
+    <string name="title_custom_font_activity">custom font activity</string>
+</resources>
