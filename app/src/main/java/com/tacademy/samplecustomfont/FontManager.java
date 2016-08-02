@@ -29,6 +29,9 @@ public class FontManager {
 
         if (t == null) {
             FontData fd = FontData.searchFont(fontName);
+
+            if (fd == null) return null;
+
             t = Typeface.createFromAsset(context.getAssets(), fd.fileName);
             fontMap.put(fontName, t);
         }
